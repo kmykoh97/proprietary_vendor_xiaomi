@@ -339,6 +339,4 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/polaris/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so
 
 PRODUCT_PACKAGES += \
-    CACertService \
-    android.hardware.gnss@2.0-service-qti \
-    vendor.qti.gnss@3.0-service
+    CACertService
